@@ -53,8 +53,8 @@ function incrementTimer() {
 
 function pad(number) {
     // add a leading 0 if the number is < 10
-    if (number > 10) {
-        number = '0' + number;
+    if (number < 10) {
+        number = "0" + number;
     }
     return number;
 }
