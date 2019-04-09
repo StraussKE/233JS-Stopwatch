@@ -72,7 +72,7 @@ class StopWatch
     stopTimer() {
         if (this.isRunning) {
             this.isRunning = false;
-            clearInterval(this.timer.bind(this));
+            clearInterval(this.timer);
         }
     }
 
