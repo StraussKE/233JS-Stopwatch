@@ -1,4 +1,5 @@
 // Create a class called StopWatch.
+class StopWatch
 {
     /*
         Add a constructor.  In the body of the constructor
@@ -12,6 +13,9 @@
             event fires
             -- this.startButton.onclick = this.startTimer.bind(this);
     */
+    constructor() {
+
+    }
 
     /*
         Convert each function to a method.  
@@ -21,8 +25,9 @@
     */
 }
 
-// reate a variable called stopWatch
-
+// create a variable called stopWatch
+let stopWatch;
 // Add an event handler to the load event of the window. 
 // Use an anonymous function or an arrow function to
 // set the stopWatch variable to an instance of StopWatch
+window.onload = () => { stopWatch = new StopWatch(); };
